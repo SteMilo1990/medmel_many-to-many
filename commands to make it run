@@ -1,8 +1,0 @@
-START
-nohup python main.py > output.log 2>&1 < /dev/null &
-
-CHECK LOGS
-tail -f output.log
-
-CHECK ACTIVITY
-ps aux | grep main.py
